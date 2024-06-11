@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import Form from './components/Form'
 import Hero from './components/Hero'
+import Tickets from './components/Tickets'
 
 function App() {
  
@@ -16,10 +17,11 @@ function App() {
           width:"100vw",
           gap: "2rem",
           backgroundColor: "#00bfff",
-          
+
               }}>
    <Header />
    <Hero/>
+   <Tickets/>
    <Form/>
    </div>
 
