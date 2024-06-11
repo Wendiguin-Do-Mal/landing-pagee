@@ -10,11 +10,11 @@ function Header() {
             <ul>
                 <li><a href="#section-hero">Home</a></li>
                 <li><a href="#section-about">Sobre</a></li>
-                <li><a href="">Cronograma</a></li>
+                <li><a href="#section-schedule">Cronograma</a></li>
                 <li><a href="#section-tickets">Ingressos</a></li>
-                <li><a href="">Localização</a></li>
+                <li><a href="#section-location">Localização</a></li>
                 <li><a href="#section-form">Newsletter</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#section-contact">Contato</a></li>
                 
                 
 

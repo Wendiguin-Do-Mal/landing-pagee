@@ -4,6 +4,9 @@ import Form from './components/Form'
 import Hero from './components/Hero'
 import Tickets from './components/Tickets'
 import About from './components/About'
+import Schedule from './components/Schedule'
+import Location from './components/Location'
+import Contact from './components/Contact'
 
 function App() {
  
@@ -24,7 +27,10 @@ function App() {
    <Hero/>
    <About/>
    <Tickets/>
+   <Schedule/>
+   <Location/>
    <Form/>
+   <Contact/>
    </div>
 
   </>)
