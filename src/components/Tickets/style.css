@@ -12,7 +12,14 @@
 
 #section-tickets > img{
     width:calc(80% - 4rem);
-    margin: 0.5rem;
+    border-radius: 2rem;
+    transition: 3s;
+    cursor: pointer;
+    &:hover{
+        scale: 1.1;
+        box-shadow: #ffffff 0.5rem 0.25rem 1rem 0.5rem;
+
+    }
     
 
 

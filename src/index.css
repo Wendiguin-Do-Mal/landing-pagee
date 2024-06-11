@@ -20,6 +20,11 @@
     margin-top: 1rem;
     width: 30.91rem;
     padding: 2.5rem;
+    transition: 1s;
+    &:hover{
+      background-color: #ec9fc8;
+    color: rgb(110, 110, 110);
+    }
  
 }
 .h2-default{
