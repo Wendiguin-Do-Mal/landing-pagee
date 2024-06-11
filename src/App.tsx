@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Form from './components/Form'
 import Hero from './components/Hero'
 import Tickets from './components/Tickets'
+import About from './components/About'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
               }}>
    <Header />
    <Hero/>
+   <About/>
    <Tickets/>
    <Form/>
    </div>
