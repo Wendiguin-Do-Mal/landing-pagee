@@ -14,6 +14,8 @@ function Form() {
   return (
     <>
       <section id="section-form">
+        <h2 className="h2-default">Increva-se na nossa Newsletter!</h2>
+        <p className="p-default">Receba atualizações exclusivas sobre o evento, descontos especiais e noticias em primeira mão.</p>
         <form action="submit" >
           <fieldset className="fieldset-form">
             <label htmlFor="name" >Nome:</label>
@@ -45,7 +47,7 @@ function Form() {
             <input name='country' type="text" onChange={(e) => setCountry(e.target.value)} value={country} />
           </fieldset>
 
-          <button type='submit'>Enviar</button>
+          <button type='submit' className="button-default">Enviar</button>
 
         </form>
 

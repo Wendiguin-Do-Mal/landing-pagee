@@ -1,13 +1,18 @@
 header{
-    width: 100vw;
+    width: calc(65.83vw + 4rem);
     display: flex;
     height: 10vh;
     align-items: center;
     justify-content: space-evenly;
     background-color: #8A2BE2;
+    border-radius: 2rem;
+    
+   
+    
 }
 header > img{
     height: 10vh;
+    border-radius: 2rem 0 0 2rem;
 
 
 }
@@ -24,8 +29,9 @@ header > nav > ul{
 header > nav > ul > li {
     list-style-type: none;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #FFFFFF;
+    
 }
 header > nav > ul > li > a{
     text-decoration: none;
