@@ -1,5 +1,7 @@
 import './App.css'
+import Header from './components/Header'
 import Form from './components/Form'
+import Hero from './components/Hero'
 
 function App() {
  
@@ -13,8 +15,11 @@ function App() {
           alignItems:"center",
           width:"100vw",
               }}>
+   <Header />
+   <Hero/>
    <Form/>
    </div>
+
   </>)
 }
 

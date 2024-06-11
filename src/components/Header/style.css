@@ -1,0 +1,42 @@
+header{
+    width: 100vw;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #8A2BE2;
+}
+header > img{
+    height: 10vh;
+
+
+}
+header > nav{
+    width: 90vw;
+
+}
+
+header > nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+header > nav > ul > li {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    &:hover {
+        color: #ffd700;
+    }
+}
+/* header > nav > ul > li > a:hover{
+    color: yellow;
+    
+    
+} */
