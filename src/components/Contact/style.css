@@ -24,3 +24,13 @@ margin: 0.5rem;
     }
     
 } 
+.div-img{
+    
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+
+
+}
+
+

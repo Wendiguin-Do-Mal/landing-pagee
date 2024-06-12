@@ -7,6 +7,7 @@ import About from './components/About'
 import Schedule from './components/Schedule'
 import Location from './components/Location'
 import Contact from './components/Contact'
+import "./animations.css"
 
 function App() {
  
