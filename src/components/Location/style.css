@@ -21,9 +21,23 @@
   justify-content: space-evenly;
   align-items: center;
 }
+#section-location > div > ul{
+  padding: 2rem;
+background-color: #b56ef8;
+width: auto;
+height: auto;
+border-radius: 2rem;
+margin-right: 1rem;
+
+
+}
 #section-location > div > ul > li {
   list-style-type: none;
   padding-right: 4rem;
+  background-color: #9e4aec;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  
 }
 #section-location > div > iframe{
     border-radius: 2rem;
