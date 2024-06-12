@@ -22,8 +22,7 @@
     background-color: #ec9fc8;
     color: rgb(110, 110, 110);
 
-    transition: 1.3s;
-    animation: mover 2s infinite;
+  
   }
   transition: 1.3s;
   animation: mover 2s infinite,brilhar 2s infinite;

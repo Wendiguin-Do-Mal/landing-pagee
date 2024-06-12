@@ -6,15 +6,24 @@
     
 
 }
+#section-contact > h2{
+    display: flex;
+    justify-content: center;
+
+
+}
 #section-contact > div{
     padding: 0.5rem;
+    
 
 background-color:#9e4aec ;
 border-radius: 1rem;
 margin: 0.5rem;
+justify-content: center;
 
 
 }
+
 #section-contact > div > p > a{
     text-decoration: underline;
     font-size: 1.5rem;
