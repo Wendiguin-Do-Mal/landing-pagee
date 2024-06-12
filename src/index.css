@@ -1,46 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Merriweather Sans";
-  
 }
 
-.button-default{
-    margin: auto;
-    padding: 3rem;
-    background-color: #ff1493;
-    border-radius: 1.5rem;
-    border: none;
-    color: white;
-    font-size: 2rem;
-    margin-top: 1rem;
-    width: 30.91rem;
-    padding: 2.5rem;
-    transition: 1s;
-    &:hover{
-      background-color: #ec9fc8;
+.button-default {
+  margin: auto;
+  padding: 3rem;
+  background-color: #ff1493;
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  margin-top: 1rem;
+  width: 30.91rem;
+  padding: 2.5rem;
+  transition: 1s;
+  &:hover {
+    background-color: #ec9fc8;
     color: rgb(110, 110, 110);
-    }
+
+    transition: 1.3s;
+    animation: mover 2s infinite;
+  }
+  transition: 1.3s;
+  animation: mover 2s infinite,brilhar 2s infinite;
  
 }
-.h2-default{
+.h2-default {
   font-size: 4rem;
-    color: #ffd700;
-    text-shadow: 1px 2px 1px black;
+  color: #ffd700;
+  text-shadow: 1px 2px 1px black;
+  transition: 3s;
+  animation: brilharTexto 3s infinite;
 }
-.p-default{
+.p-default {
   font-size: 1.7rem;
-    color: white;
-    text-shadow: 1px 2px 1px black;
-    margin-bottom: 1rem;
+  color: white;
+  text-shadow: 1px 2px 1px black;
+  margin-bottom: 1rem;
 }
 
-.box-default{
+.box-default {
   border-radius: 2rem;
-    padding: 2rem;
-    background-color: #8a2be2;
+  padding: 2rem;
+  background-color: #8a2be2;
 }
